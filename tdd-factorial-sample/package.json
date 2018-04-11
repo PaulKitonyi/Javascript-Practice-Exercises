@@ -1,0 +1,18 @@
+{
+  "name": "tdd-factorial-sample",
+  "version": "1.0.0",
+  "description": "Simple tdd factorial sample",
+  "main": "src/main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/test.js"
+  },
+  "keywords": [
+    "TDD",
+    "Javascript"
+  ],
+  "author": "Paul Kitonyi",
+  "license": "ISC"
+}
