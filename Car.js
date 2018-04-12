@@ -37,12 +37,12 @@ class ElectricCar extends Car{
     }
 }
 // for testing purpose
-let auris = new Car('Toyota', 'Auris', '2010')
+const auris = new Car('Toyota', 'Auris', '2010')
 auris.getDescriptiveName();
 auris.readOdometer();
 auris.updateOdometer(100);
 
 // testing ElectricCar sub class
-let tesla = new ElectricCar('tesla', 'model s', '2018', '70')
+const tesla = new ElectricCar('tesla', 'model s', '2018', '70')
 tesla.getDescriptiveName();
 tesla.batterySize();
