@@ -24,9 +24,9 @@ class Member extends User{
 }
 
 // for testing purpose!!!!!!
-const paul = new User('Paul kitonyi', 'paulmucimah@gmail.com', 'password')
+const paul = new User('Paul kitonyi', 'paulmucimah@gmail.com', 'password');
 paul.register();
 
 // testing sub class!!!!!
-const mike = new Member('Mike', 'mike@gmail.com', 'password', 'standard')
+const mike = new Member('Mike', 'mike@gmail.com', 'password', 'standard');
 mike.getPackage();
