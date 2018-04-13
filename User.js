@@ -7,7 +7,7 @@ class User{
     }
 
     register(){
-        console.log(this.username + ' is now registered.')
+        console.log(this.username + ' is now registered.');
     }
 }
 
@@ -19,7 +19,7 @@ class Member extends User{
     }
 
     getPackage(){
-        console.log(this.username + ' is subscribed to '+ this.package + ' Member Package')
+        console.log(this.username + ' is subscribed to '+ this.package + ' Member Package');
     }
 }
 
