@@ -14,7 +14,7 @@ class Calculator{
     }
 
     division(firstvalue,secondvalue){
-        console.log('The division of '+ firstvalue + '/' + secondvalue + '=', firstvalue / secondvalue)
+        console.log('The division of '+ firstvalue + '/' + secondvalue + '=', firstvalue / secondvalue);
     }
 }
 
