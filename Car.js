@@ -8,11 +8,11 @@ class Car{
     }
 
     getDescriptiveName(){
-        console.log(this.year + ' ' + this.make + ' '+ this.model)
+        console.log(this.year + ' ' + this.make + ' '+ this.model);
     }
 
     readOdometer(){
-        console.log('This car has ' + this.odometer_reading + ' miles on it!!!!')
+        console.log('This car has ' + this.odometer_reading + ' miles on it!!!!');
     }
 
     updateOdometer(mileage){
@@ -20,7 +20,7 @@ class Car{
             this.odometer_reading += mileage;
         }
         else{
-            console.log('You cant roll back an Odometer!!!!')
+            console.log('You cant roll back an Odometer!!!!');
         }
 
     }
@@ -33,7 +33,7 @@ class ElectricCar extends Car{
     }
 
     batterySize(){
-        console.log(this.make + ' ' + this.model + ' ' + 'has a battery of size ' + this.battery+'-KWh')
+        console.log(this.make + ' ' + this.model + ' ' + 'has a battery of size ' + this.battery+'-KWh');
     }
 }
 // for testing purpose
